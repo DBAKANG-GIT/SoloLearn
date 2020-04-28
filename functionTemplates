@@ -1,0 +1,23 @@
+// SoloLearn Tutorial Inheriatnce.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+template <typename T, typename U> //two data types
+U sum(T a, U b)
+{
+    return a + b;
+}
+
+
+
+
+int main()
+{
+  
+    cout << sum(2, 3.77);
+  
+    return 0;
+
+}
+
